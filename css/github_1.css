@@ -1,0 +1,77 @@
+*{
+	margin: 0 auto;
+}
+body{
+	background: gainsboro;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.container{
+	margin-left: 8%;
+	margin-top: 60px;
+}
+h1{margin-left: 35%;}
+#left_frame{
+	position: relative;
+    background: white;
+	height: 350px;
+	width: 500px;
+	border: solid 1px ghostwhite;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 4px gray;
+	float: left;
+}
+#right_frame{
+	position: relative;
+    background: white;
+	height: 350px;
+	width: 300px;
+	border: solid 1px ghostwhite;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 4px gray;
+	float: left;
+}
+#last_frame{
+	position: relative;
+    background: white;
+	height: 80px;
+	width: 200px;
+	border: solid 1px ghostwhite;
+	margin: 10px;
+	padding: 135px 10px;
+	border-radius: 5px;
+	box-shadow: 4px gray;
+	float: left;
+}
+path {  stroke: #fff; }
+path:hover {  opacity:0.9; }
+rect:hover {  fill:blue; }
+.axis {  font: 8px; font-family: "微软雅黑";}
+.legend tr{    border-bottom:1px solid grey; }
+.legend tr:first-child{    border-top:1px solid grey; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #61D7A4;
+  stroke-width: 2px;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {  display: none; }
+.legend{
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+.legendFreq, .legendPerc{
+    align:right;
+    width:50px;
+}
